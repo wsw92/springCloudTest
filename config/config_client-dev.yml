@@ -1,0 +1,11 @@
+server:
+  port: 8821
+spring:
+  application:
+    name: config_client
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: wsw92
+    password: 123123    
+content: 我是王思望第一次测试拉拉
