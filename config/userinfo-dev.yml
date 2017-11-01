@@ -5,6 +5,8 @@ eureka:
 server:
   port: 8771
 spring:
+  zipkin:
+    base-url: localhost:8831
   application:
     name: userinfo
   rabbitmq:
