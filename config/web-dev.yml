@@ -7,3 +7,8 @@ server:
 spring:
   application:
     name: web
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: wsw92
+    password: 123123  
